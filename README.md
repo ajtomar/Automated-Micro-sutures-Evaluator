@@ -9,13 +9,13 @@ Micro-suturing is the task of performing suturing (stitching) under a microscope
 
 Below command needs to be provided for the execution of the program:
 
-python3 main.py <part id> <img dir> <output csv>
+python3 main.py part_id img_dir output_csv
 
 There are two tasks:
 
 – For the first part, we are required to iterate through all the images in the given directory and generate a CSV file specifying the various parameters that you have calculated. It should have the following columns: image name, number of sutures, mean inter suture spacing, variance of inter suture spacing, mean suture angle wrt x-axis, variance of suture angle wrt x-axis. main.py will be executed as follows:
 
-python3 main.py 1 <img dir> <output csv>
+python3 main.py 1 \<img_dir\> \<output csv\>
 
 
 – For the second part, we will be given pairs of images and we need to output which image is a better suture outcome with respect to inter-suture distance and angulation of sutures. main.py will be executed as follows:
